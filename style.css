@@ -1,0 +1,256 @@
+ul,li{
+    list-style: none;
+}
+
+body{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+}
+/* ------------------HEADER ------------------------- */
+
+.container{
+    margin:15px 170px 0px 170px ;
+}
+
+.header{
+    display: flex;
+    
+        height: 70px;
+       
+        background: #FFFFFF;
+        border-radius: 0px;
+}
+
+.logo{
+    margin-right: 64px;
+}
+
+.header-nav__list{
+    display: flex;
+
+        font-size: 15px;
+        line-height: 1.2;
+        color: #071330;
+}
+.header-nav__item:not(:last-child){
+    margin-right:40px ;
+}
+
+.header-btn{
+    width:152px;
+    height: 40px;
+    background: #3D55F9;
+        border-radius: 12px;
+        margin-left: 544px;
+
+            font-size: 16px;
+            line-height: 1,25;        
+            text-align: center;
+            color: #FFFFFF;
+}
+
+/* ----------------------------Hero------------------------------ */
+
+.hero{
+    display: flex;
+}
+
+.hero-title{
+
+        font-size: 43px;
+        line-height: 1.15;
+
+        color: #071330;
+        padding-top: 125px;
+        margin: 0;
+
+        max-width: 460px;
+}
+
+.hero-text{
+
+        font-size: 18px;
+        line-height: 1.78;
+     
+        color: #071330;
+        margin: 0;
+        padding-top: 81px;
+        max-width: 450px;
+}
+
+.hero-form{
+        margin-top: 24px;
+}
+
+.hero-input{
+    padding: 32px 31px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(7, 19, 48, 0.06);
+    border-radius: 20px;
+
+      width: 497px;
+      max-height: 80px;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 1.06;
+    
+        color: #071330;
+}
+
+    
+
+.hero-btn{
+    position: absolute;
+    transform: translate(-186px,16px);
+    height: 56px;
+  
+    background: #3D55F9;
+        border-radius: 12px;
+
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.25;
+
+            text-align: center;
+                    color: #FFFFFF;
+                    padding: 19px 30px;
+}    
+
+.hero-img{
+    padding-top: 14px;
+    width: 600px;
+    position: absolute;
+    transform: translateX(490px);
+}
+
+
+/* ----------------------------------Info----------------------------------------- */
+
+.info{
+    display: flex;
+    margin: 0px 15px;
+}
+
+.info-img{
+    padding-top: 234px;
+    padding-left: 109px;
+
+    
+
+}
+
+.info-img__box{
+    min-width: 270px;
+    min-height: 554px;
+    background-image: url("./image/benefits-img.png");
+    filter: drop-shadow(0px 16px 32px rgba(7, 19, 48, 0.08));
+        border-radius: 44px;
+           background-size: 270px 554px;
+background-repeat: no-repeat;
+background-position-y: 234px;
+margin-left: 46px;
+
+}
+
+.info-text__bloc{
+    padding-top:303px ;
+    margin-left: 266px;
+}
+
+.info-first__text{
+        font-size: 16px;
+        line-height: 1.25;
+       
+        color: #3D55F9;
+        margin: 0;
+}
+
+.info-title {
+
+    font-size: 40px;
+    line-height: 1.17;
+width: 389px;
+    color: #071330;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.info-text {
+    font-size: 18px;
+        line-height: 1.78;
+       width: 463px;
+       height: 97px;
+    
+    
+        color: #071330;
+        padding-top: 33px;
+        margin: 0;
+}
+.info-text__second{
+    font-size: 18px;
+        line-height: 1.78;
+        width: 463px;
+        height: 129px;
+        color: #071330;
+
+        padding-top: 31px;
+        margin: 0;
+}
+
+
+/* --------------------------------------Steps ------------------------------ */
+
+.steps-all {
+    display: flex;
+}
+
+.steps-title {
+    padding-top: 420px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0;
+
+        width: 700px;
+        height: 94px;
+        font-size: 40px;
+        line-height: 1.17;
+        text-align: center;
+        color: #071330;
+}
+
+/* .steps-list__container {} */
+
+/* .steps-list {} */
+
+/* .steps-item {} */
+
+/* .steps-item__title {} */
+
+/* .steps-item-text {} */
+
+/* .steps-box__container {} */
+
+.steps-box__first {
+    width:331px ;
+    height: 431px;
+        background-image: url("./image/steps-first.png");
+        background-size:331px 431px ;
+
+      
+}
+
+.steps-box__second {
+    width:331px;
+        height: 431px;
+        background-image: url("./image/steps-second.png");
+background-size: 331px 431px;
+}
+
+.steps-box__third {
+width: 331px;
+    height: 427px;
+    background-image: url("./image/steps-third.png");
+    background-size: 331px 427px;
+}
