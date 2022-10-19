@@ -219,24 +219,56 @@ width: 389px;
         text-align: center;
         color: #071330;
 }
+.steps-circle__box{
+    width: 56px;
+        height: 56px;
+        box-shadow: 16px 16px 32px rgba(7, 19, 48, 0.08);
+        border-radius: 28px;
+        background: #3D55F9;
+        
+}
+.steps-item:not(:first-child){
+    padding-top: 113px;
+}
 
-/* .steps-list__container {} */
+.steps-circle{
+    width: 8px;
+    height: 32px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #FFFFFF;
+        position: absolute;
+        transform: translate(23px, 13px);
+     
+}
+.steps-list__container {
+    padding-top: 170px;
+}
 
-/* .steps-list {} */
 
-/* .steps-item {} */
+.steps-item__title {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #071330;
+        padding-top: 24px;
+}
 
-/* .steps-item__title {} */
+.steps-item-text {
+    width:535px;
+    font-size: 18px;
+    line-height: 1.78;
+    color: rgba(7, 19, 48, 0.6);
+}
 
-/* .steps-item-text {} */
 
-/* .steps-box__container {} */
 
 .steps-box__first {
     width:331px ;
     height: 431px;
         background-image: url("./image/steps-first.png");
         background-size:331px 431px ;
+        margin-left: 229px;
+        margin-top: 66px;
 
       
 }
@@ -246,6 +278,8 @@ width: 389px;
         height: 431px;
         background-image: url("./image/steps-second.png");
 background-size: 331px 431px;
+margin-top: 17px;
+margin-left: 230px;
 }
 
 .steps-box__third {
@@ -253,4 +287,42 @@ width: 331px;
     height: 427px;
     background-image: url("./image/steps-third.png");
     background-size: 331px 427px;
+    margin-top: 26px;
+    margin-left: 236px;
+}
+
+/* -----------------------------------Excerpition ------------------------ */
+
+.excerpition {
+    margin: 0px 165px;
+    padding-top: 188px;
+}
+
+.excerpition-text {
+        width: 693px;
+        font-size: 27px;
+        line-height: 2.07;
+        text-align: center;
+    margin: 0;
+        color: #F0BCA3;
+}
+
+.excerpition-icon__name{
+    display: flex;
+    margin-top: 88px;
+}
+
+.excerpition-img {
+    margin-left: 198px;
+    margin-right: 22px;
+}
+
+.excerpition-name {
+        font-size: 18px;
+        line-height: 1.78;
+    
+        text-align: center;
+    
+        color: rgba(7, 19, 48, 0.6);
+        margin: 0;
 }
